@@ -13,7 +13,6 @@ tickets = {
     4: ['E2E_9', 'API_76'],
     5: ['E2E_2', 'API_61']
 }
-
 def tickets_by_type(types_dict, tickets_dict):
     used = []
     result = {}
