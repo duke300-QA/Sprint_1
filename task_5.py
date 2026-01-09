@@ -15,7 +15,6 @@ class TestCase:
 
     def get_test_case(self):
         return {'Шаги': self.steps,'Ожидаемый результат': self.result}
-
 test_case_1 = TestCase()
 test_case_1.set_step(1, 'Перейти на сайт')
 test_case_1.set_step(3, 'Перейти в раздел Товары')
@@ -31,3 +30,4 @@ test_case_2.set_step(2, 'Перейти в раздел Корзина')
 test_case_2.set_step(3, 'Нажать кнопку "Удалить"')
 test_case_2.set_result('Товар удален из корзины')
 print(test_case_2.get_test_case())
+
